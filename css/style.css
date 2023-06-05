@@ -33,7 +33,14 @@ li {
 a {
     text-decoration: none;
     color: #000000;
+}
+
+.home {
     margin-right: 69px;
+}
+
+.activity {
+    margin-right: 42.61px;
 }
 
 a:hover {
@@ -70,7 +77,7 @@ body {
 }
 
 form {
-    margin-bottom: 49.5px;
+    margin-bottom: 35px;
     display: flex;
     width: 377px;
     height: 49px;
@@ -107,6 +114,14 @@ form {
     border: 1px solid #F2F2F2;
     padding-top: 0px;
     padding-bottom: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+input::placeholder {
+    font-size: 18px;
 }
 
 input:focus-visible {
@@ -114,67 +129,32 @@ input:focus-visible {
 }
 
 .filtres {
-    margin-bottom: 52px;
+    margin-bottom: 37.5px;
     display: flex;
     font-weight: 700;
     font-size: 17px;
+    align-items: center;
 }
 
-.btn-eco {
-    width: 167px;
+.filtre-title {
+    padding-right: 10px;
+}
+
+.btn-filtre {
     height: 50px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 4px 19px;
-    gap: 10px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 17px;
+    margin-right: 10px;
 }
 
-.btn-fam {
-    width: 167px;
-    height: 50px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 19px;
-    gap: 10px;
-    border: 2px solid #D9D9D9;
-    border-radius: 25px;
-    background-color: #FFFFFF;
+.btn-filtre :hover {
+    background-color: #DEEBFF;
 }
 
-.btn-rom {
-    width: 167px;
-    height: 50px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 19px;
-    gap: 10px;
-    border: 2px solid #D9D9D9;
-    border-radius: 25px;
-    background-color: #FFFFFF;
-}
-
-.btn-nug {
-    width: 167px;
-    height: 50px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 19px;
-    gap: 10px;
-    border: 2px solid #D9D9D9;
-    border-radius: 25px;
-    background-color: #FFFFFF;
-}
 .info {
     display: flex;
     align-items: center;
