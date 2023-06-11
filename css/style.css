@@ -151,7 +151,7 @@ input:focus-visible {
     margin-right: 10px;
 }
 
-.btn-filtre :hover {
+.btn-filtre:hover {
     background-color: #DEEBFF;
 }
 
@@ -182,10 +182,7 @@ input:focus-visible {
 }
 
 .hebergements-cards img {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
 }
 
 .section-title {
