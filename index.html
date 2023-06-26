@@ -18,7 +18,7 @@
     <header>
         <nav>
             <img src="image/logo/booki.png" alt="Logo Booki">
-            <ul>
+            <ul class="ul-link">
                 <li class="nav-link">
                     <a href="" class="home">Hébergements</a>
                 </li>
@@ -33,10 +33,12 @@
 
     <div class="search-bar">
         <form action="" method="get">
-            <button class="btn-location" type="button"><i class="fa-solid fa-location-dot location-icon"></i></button>
-            <input class="input-btn" type="text" placeholder="Entrez un lieu">
-            <button class="btn-search" type="submit">Rechercher</button>
-            <button class="btn-lens" type="button"><i class="fa-sharp fa-solid fa-magnifying-glass lens-icon"></i></button>
+            <div class="btn-container">
+                <button class="btn-location" type="button"><i class="fa-solid fa-location-dot location-icon"></i></button>
+                <input class="input-btn" type="text" placeholder="Entrez un lieu">
+                <button class="btn-search" type="submit">Rechercher</button>
+                <button class="btn-lens" type="button"><i class="fa-sharp fa-solid fa-magnifying-glass lens-icon"></i></button>
+            </div>
         </form>
         <div class="filtres">
             <div class="filtre-title">Filtres</div>
@@ -59,7 +61,7 @@
                         <h2 class="section-mainTitle">Hébergements à Marseille</h2>
                     </div>
                     <div class="hebergements-cards">
-                        <article class="main-card">
+                        <article class="main-card" style="order: 0">
                             <img src="image/hebergements/fred-kleber.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content_main">
@@ -77,7 +79,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="main-card">
+                        <article class="main-card" style="order: 1">
                             <img src="image/hebergements/febrian-zakaria.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content_main">
@@ -95,7 +97,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="main-card">
+                        <article class="main-card" style="order: 2">
                             <img src="image/hebergements/reisetopia.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content_main">
@@ -113,7 +115,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="main-card">
+                        <article class="main-card" style="order: 3">
                             <img src="image/hebergements/annie-spratt.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content_main">
@@ -131,7 +133,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="main-card">
+                        <article class="main-card" style="order: 4">
                             <img src="image/hebergements/marcus-loke.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content_main">
@@ -149,7 +151,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="main-card">
+                        <article class="main-card" style="order: 5">
                             <img src="image/hebergements/nicate-lee.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content_main">
