@@ -646,6 +646,30 @@ footer {
         width: 335px;
     }
 
+    .main-card.one {
+        order: 0;
+    }
+
+    .main-card.two {
+        order: 5;
+    }
+
+    .main-card.three {
+        order: 2;
+    }
+
+    .main-card.four {
+        order: 3;
+    }
+
+    .main-card.five {
+        order: 1;
+    }
+
+    .main-card.six {
+        order: 4;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
