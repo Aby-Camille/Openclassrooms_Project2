@@ -498,12 +498,6 @@ footer {
         font-size: 13px;
     }
 
-    .activity-list {
-        justify-content: space-between;
-        flex-direction: row;
-        flex-wrap: none;
-    }
-
     .activities-card {
         width: 193.5px;
     }
