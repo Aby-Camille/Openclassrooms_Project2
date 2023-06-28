@@ -125,9 +125,9 @@ form {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    text-align: center;
     width: 195px;
     font-size: 18px;
+    padding-left: 24px;
 }
 
 input::placeholder {
@@ -230,14 +230,13 @@ input:focus-visible {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     width: 250.33px;
     height: 207.25px;
+    margin-bottom: 30px;
 }
 
 .hebergements-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
     justify-content: space-between;
-    margin-bottom: 30px;
 }
 
 .hebergements-cards img {
@@ -427,15 +426,7 @@ footer {
     padding-bottom: 0;
     background: var(--main-bg-color);
     flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.footer-column1 {
-    padding-right: 369.67px;
-}
-
-.footer-column2 {
-    padding-right: 281.67px;
+    justify-content: space-between;
 }
 
 .footer-title {
@@ -697,7 +688,13 @@ footer {
     footer {
         display: flex;
         flex-direction: column;
-        padding-right: 0;
     }
 
+    .footer-column2 {
+        padding-top: 50px;
+    }
+
+    .footer-column3 {
+        padding-top: 50px;
+    }
 }
