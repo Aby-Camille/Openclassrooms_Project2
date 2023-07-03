@@ -391,9 +391,8 @@ h3 {
 
 .activities-list {
     display: flex;
-    gap: 30px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .activities-card {
@@ -538,7 +537,7 @@ footer {
         margin-bottom: -2px;
     }
 
-    .nav-link:hover > a {
+    .nav-link:hover>a {
         color: var(--main-color);
     }
 
@@ -673,7 +672,11 @@ footer {
     }
 
     .card {
-        width: 335px !important;
+        width: unset !important;
+    }
+
+    .activities-list {
+        gap: 30px;
     }
 
     .activities-card {
